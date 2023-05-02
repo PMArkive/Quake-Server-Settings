@@ -1,0 +1,214 @@
+"Phrases"
+{
+	"Prefix"
+	{
+		"en"		"[CR] "
+	}
+
+	"CR_CHAT_Round_Start"
+	{
+		"#format"	"{1:s}"
+		"en"		"Round {1} started."
+	}
+
+	"CR_CHAT_Force_Round_End"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} canceled current custom round."
+	}
+
+	"CR_CHAT_Next_Round_Cancel"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} canceled next custom round."
+	}
+
+	"CR_CHAT_Change_Next_Round"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} changed next custom round to {2}."
+	}
+
+	"CR_CHAT_Set_Next_Round"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} set next custom round to {2}."
+	}
+
+	"CR_CHAT_Set_Current_Round"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} started custom round {2}."
+	}
+
+	"CR_MENU_No_Next_Custom_Round"
+	{
+		"en"		"There is no next round."
+	}
+
+	"CR_MENU_No_Custom_Round"
+	{
+		"en"		"Current round default."
+	}
+
+	"CR_MENU_Round_End"
+	{
+		"en"		"Wait for round end."
+	}
+
+	"CR_MENU_Warmup"
+	{
+		"en"		"Wait for warmup end."
+	}
+
+	"CR_MENU_Now"
+	{
+		"en"		"That round"
+	}
+
+	"CR_MENU_Next"
+	{
+		"en"		"Next round"
+	}
+
+	"CR_MENU_Interval"
+	{
+		"en"		"Wait some rounds."
+	}
+
+	"CR_MENU_Rounds"
+	{
+		"en"		"Custom rounds"
+	}
+
+	"CR_MENU_Disable_Current"
+	{
+		"en"		"Disable current"
+	}
+
+	"CR_MENU_Cancel_Next"
+	{
+		"en"		"Cancel next"
+	}
+
+	"CR_MENU_Ask"
+	{
+		"en"		"Starting a round:"
+	}
+
+	"CR_MENU_Choose_Round"
+	{
+		"en"		"Choose round"
+	}
+
+	"CR_MENU_Reload_Config"
+	{
+		"en"		"Reload config"
+	}
+
+	"CR_MENU_Config_Reloaded"
+	{
+		"en"		"Config reloaded."
+	}
+
+	"CR_MENU_Not_Working"
+	{
+		"en"		"Menu currently not working."
+	}
+
+	"CR_Intervals_Warning"
+	{
+		"#format"	"{1:i}"
+		"en"		"Wait for {1} rounds before launch custom round."
+	}
+
+	"CR_VOTES_Not_Available"
+	{
+		"en"		"This round is not available for voting."
+	}
+
+	"CR_VOTES_Maximum_Votes"
+	{
+		"#format"	"{1:i}"
+		"en"		"Your vote limit is reached. Maximum {1}."
+	}
+
+	"CR_VOTES_Voted"
+	{
+		"#format"	"{1:s},{2:i},{3:i}"
+		"en"		"You voted for round {1}. Required [{2}/{3}]."
+	}
+
+	"CR_VOTES_Voted_Announce"
+	{
+		"#format"	"{1:N},{2:s},{3:i},{4:i}"
+		"en"		"{1} voted for launch {2}. Required [{3}/{4}]."
+	}
+
+	"CR_VOTES_Announce"
+	{
+		"#format"	"{1:s}"
+		"en"		"Players successfully voted for launch {1}. Round added to launch queue."
+	}
+
+	"CR_VOTES_Cancel"
+	{
+		"#format"	"{1:s},{2:i},{3:i}"
+		"en"		"You cancel your vote for round {1}. Required [{2}/{3}]."
+	}
+
+	"CR_VOTES_Cancel_Announce"
+	{
+		"#format"	"{1:N},{2:s},{3:i},{4:i}"
+		"en"		"{1} canceled own vote for launch {2}. Required [{3}/{4}]."
+	}
+
+	"CR_VOTES_Cancel_Item"
+	{
+		"en"		"Cancel votes"
+	}
+
+	"CR_VOTES_Title"
+	{
+		"en"		"Choose round for vote"
+	}
+
+	"CR_VOTES_Title_Votes"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"\nCurrent votes: {1} Maximum votes: {2}"
+	}
+
+	"CR_VOTES_Player_Leave"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"Due to a player leaving, {1} voting for the round (s) took place. "
+	}
+
+	"CR_VOTES_ConVar_Change"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"Due to a console variable change, {1} voting for the round (s) took place. "
+	}
+
+	"CR_VOTES_Cancel_All"
+	{
+		"en"		"You canceled your votes."
+	}
+
+	"CR_VOTES_Cancel_All_Announce"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} canceled all own votes."
+	}
+
+	"CR_VOTES_Cancel_No_Votes"
+	{
+		"en"		"You did not vote for the rounds."
+	}
+
+	"CR_VOTES_Wait"
+	{
+		"en"		"Wait some time before vote."
+	}
+}
